@@ -1,0 +1,36 @@
+/* Custom styles */
+#imagePreview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#chatbotMessages {
+  background-color: #f0fdf4;
+  scrollbar-width: thin;
+  scrollbar-color: #4ade80 #f0fdf4;
+}
+
+#chatbotMessages::-webkit-scrollbar {
+  width: 8px;
+}
+
+#chatbotMessages::-webkit-scrollbar-thumb {
+  background-color: #4ade80;
+  border-radius: 4px;
+}
+
+#chatbotMessages::-webkit-scrollbar-track {
+  background-color: #f0fdf4;
+}
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+#previewImg {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
